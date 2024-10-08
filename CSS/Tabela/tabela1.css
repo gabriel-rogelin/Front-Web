@@ -1,0 +1,13 @@
+.tema-azul th{
+    background-color: #3498db;
+    color: #fff;
+}
+
+.tema-azul tbody tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.tema-azul tbody tr:hover{
+    background-color: #ddd;
+}
+

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Loja do Tigrinho</h1>
+    </header>
+
+    <main>
+        <div class="produto-grid">
+            <div class="produto-item">
+                <div class="produto-galeria">
+                    <div class="main-imagem">
+                        <img src="imagem1.jpg" id="mainImagem1">
+                    </div>
+
+                    <div class="carousel">
+                        <div class="carousel-imagens">
+                            <img src="imagem1.jpg" onclick="changeImagem('imagem1.jpg',  'mainImagem1')">
+                            <img src="imagem2.png" onclick="changeImagem('imagem2.png',  'mainImagem1')">
+                            <img src="imagem3.webp" onclick="changeImagem('imagem3.webp', 'mainImagem1')">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="produto-detalhes">
+                    <h2>Iphone 13 Pro Max</h2>
+                    <p class="preco">R$ 4.000</p>
+                    <p class="descricao">Iphone com 512GB de armazenamento com câmera tripla</p>
+                    <button class="btn">Adicionar ao Carrinho</button>
+                    <button class="btn secundario">Comprar Agora</button>
+                </div>
+            </div>  
+            
+            
+            <div class="produto-item">
+                <div class="produto-galeria">
+                    <div class="main-imagem">
+                        <img src="imagem1.jpg" id="mainImagem1">
+                    </div>
+
+                    <div class="carousel">
+                        <div class="carousel-imagens">
+                            <img src="imagem1.jpg" onclick="changeImagem('imagem1.jpg',  'mainImagem1')">
+                            <img src="imagem2.png" onclick="changeImagem('imagem2.png',  'mainImagem1')">
+                            <img src="imagem3.webp" onclick="changeImagem('imagem3.webp', 'mainImagem1')">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="produto-detalhes">
+                    <h2>Iphone 13 Pro Max</h2>
+                    <p class="preco">R$ 4.000</p>
+                    <p class="descricao">Iphone com 512GB de armazenamento com câmera tripla</p>
+                    <button class="btn">Adicionar ao Carrinho</button>
+                    <button class="btn secundario">Comprar Agora</button>
+                </div>
+            </div>                        
+            
+            <div class="produto-item">
+                <div class="produto-galeria">
+                    <div class="main-imagem">
+                        <img src="imagem1.jpg" id="mainImagem1">
+                    </div>
+
+                    <div class="carousel">
+                        <div class="carousel-imagens">
+                            <img src="imagem1.jpg" onclick="changeImagem('imagem1.jpg',  'mainImagem1')">
+                            <img src="imagem2.png" onclick="changeImagem('imagem2.png',  'mainImagem1')">
+                            <img src="imagem3.webp" onclick="changeImagem('imagem3.webp', 'mainImagem1')">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="produto-detalhes">
+                    <h2>Iphone 13 Pro Max</h2>
+                    <p class="preco">R$ 4.000</p>
+                    <p class="descricao">Iphone com 512GB de armazenamento com câmera tripla</p>
+                    <button class="btn">Adicionar ao Carrinho</button>
+                    <button class="btn secundario">Comprar Agora</button>
+                </div>
+            </div>                        
+            
+            <div class="produto-item">
+                <div class="produto-galeria">
+                    <div class="main-imagem">
+                        <img src="imagem1.jpg" id="mainImagem1">
+                    </div>
+
+                    <div class="carousel">
+                        <div class="carousel-imagens">
+                            <img src="imagem1.jpg" onclick="changeImagem('imagem1.jpg',  'mainImagem1')">
+                            <img src="imagem2.png" onclick="changeImagem('imagem2.png',  'mainImagem1')">
+                            <img src="imagem3.webp" onclick="changeImagem('imagem3.webp', 'mainImagem1')">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="produto-detalhes">
+                    <h2>Iphone 13 Pro Max</h2>
+                    <p class="preco">R$ 4.000</p>
+                    <p class="descricao">Iphone com 512GB de armazenamento com câmera tripla</p>
+                    <button class="btn">Adicionar ao Carrinho</button>
+                    <button class="btn secundario">Comprar Agora</button>
+                </div>
+            </div>                        
+            
+            <div class="produto-item">
+                <div class="produto-galeria">
+                    <div class="main-imagem">
+                        <img src="imagem1.jpg" id="mainImagem1">
+                    </div>
+
+                    <div class="carousel">
+                        <div class="carousel-imagens">
+                            <img src="imagem1.jpg" onclick="changeImagem('imagem1.jpg',  'mainImagem1')">
+                            <img src="imagem2.png" onclick="changeImagem('imagem2.png',  'mainImagem1')">
+                            <img src="imagem3.webp" onclick="changeImagem('imagem3.webp', 'mainImagem1')">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="produto-detalhes">
+                    <h2>Iphone 13 Pro Max</h2>
+                    <p class="preco">R$ 4.000</p>
+                    <p class="descricao">Iphone com 512GB de armazenamento com câmera tripla</p>
+                    <button class="btn">Adicionar ao Carrinho</button>
+                    <button class="btn secundario">Comprar Agora</button>
+                </div>
+            </div>                                    
+        </div>
+
+
+        
+    </main>
+
+    <script>
+        function changeImagem(imagem, id, img_clicada) {
+            document.getElementById(id).src = imagem;
+        }
+    </script>
+
+    <footer>
+        <p>&copy; 2024 Loja do Tigrinho. Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>

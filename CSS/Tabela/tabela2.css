@@ -1,0 +1,13 @@
+.tema-verde th{
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.tema-verde tbody tr:nth-child(even){
+    background-color: #f0f8ff;
+}
+
+.tema-verde tbody tr:hover{
+    background-color: #e0f8ff;
+}
+

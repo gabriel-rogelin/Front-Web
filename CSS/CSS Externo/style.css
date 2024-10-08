@@ -1,0 +1,18 @@
+h1{
+    color: red;
+    background: black;
+}
+
+p{
+    color: blue;
+    font-size: 20px;
+}
+
+body{
+    background-color: chartreuse;
+}
+
+.texto-formatado{
+    color: white;
+    background: black;
+}

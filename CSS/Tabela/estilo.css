@@ -1,0 +1,25 @@
+/* Estilo para todas as tabelas */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilo para cabeçalho das tabelas */
+table th {
+ border: 1px solid #dddddd;
+}
+
+/* Estilo para as células da tabela */
+table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+}
+
+.col-negrito{
+    font-weight: bold;
+}

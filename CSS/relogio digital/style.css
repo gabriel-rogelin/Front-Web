@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+}
+
+.container{
+    text-align: center;
+}
+
+.clock{
+    background-color: #3b4048;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 2 px rgba(0, 0, 0, 0.2);
+}
+
+.time{
+    font-size: 50px;
+    opacity: 0.7; /*Transparência*/
+    transition: color 0.3; /*transição suave na cor*/
+}
+
+.date{
+    font-size: 30px;
+    opacity: 0.7;
+}
+
+.time:hover{
+    color: #61dafb;
+}
